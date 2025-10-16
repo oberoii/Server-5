@@ -84,4 +84,5 @@ if not os.path.exists('templates'):
 
 if __name__ == '__main__':
     # You can change the port for deployment if needed
-    app.run(debug=True, host='0.0.0.0' port=9000)
+    app.run(debug=True, host='0.0.0.0', port=9000)
+
